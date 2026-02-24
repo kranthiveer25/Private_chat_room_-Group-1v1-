@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secure Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Secure Chat App</h2>
+
+<!-- Join Section -->
+<div id="joinSection">
+  <input type="text" id="nameInput" placeholder="Your Name">
+  <br><br>
+
+  <input type="text" id="keyInput" placeholder="Room Key">
+  <br><br>
+
+  <button onclick="connect()">Connect</button>
+</div>
+
+<hr>
+
+<!-- Chat Section -->
+<div id="chatSection" style="display:none;">
+
+  <div id="chatBox" style="height:300px;overflow:auto;border:1px solid black;"></div>
+
+  <br>
+
+  <textarea id="msgInput" placeholder="Type message"></textarea>
+  <br>
+
+  <button onclick="sendMessage()">Send</button>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
