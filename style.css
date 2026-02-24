@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+input, textarea {
+  width: 250px;
+  padding: 6px;
+}
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
